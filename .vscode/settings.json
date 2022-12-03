@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "git.mergeEditor": false,
+  "scssFormatter.printWidth": 120,
+  "scssFormatter.singleQuote": true,
+  "stylelint.validate": ["css", "scss"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.port": 5501
+}

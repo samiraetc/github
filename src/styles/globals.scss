@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Roboto:wght@300;400;900&display=swap');
+@import './variables';
+
+@import '../components/CardProfile/styles';
+@import '../components/TextField/styles';
+@import '../components//Button/styles';
+
+@import '../pages/searchProfile/styles';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: $github-gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+p {
+  margin-bottom: 0;
+}

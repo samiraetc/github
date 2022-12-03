@@ -1,0 +1,9 @@
+.textfield {
+  &__input {
+    padding: $github-spacing-20;
+    border-radius: $github-border-radius-20;
+    border: none;
+    width: 500px;
+    border: 2px solid $github-secondary-color;
+  }
+}

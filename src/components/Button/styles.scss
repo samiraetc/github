@@ -1,0 +1,14 @@
+.button {
+  &__action {
+    padding: $github-spacing-16;
+    color: $github-gray;
+    background-color: $github-secondary-color;
+    border: none;
+    border-radius: $github-border-radius-20;
+    width: 150px;
+  }
+
+  &__action:hover {
+    background-color: $github-third-color;
+  }
+}

@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GITHUB
 
-## Getting Started
+![languages](https://img.shields.io/badge/technologies-typescript-blue?style=for-the-badge&logo=appveyor)
 
-First, run the development server:
+## Quick Start
 
-```bash
-npm run dev
-# or
-yarn dev
+Clone the repository to your local computer
+
+```
+https://github.com/samiraetc/github.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Follow `package.json` commands to assist in development:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- To install dependencies 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+yarn install
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- To build the project and assets
 
-## Learn More
+```
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+- To run application locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+- To run unit tests
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+npm run test
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## API Response
+
+You can see the API response locally acess
+
+```
+localhost:3000/api/user?userName={github-username}
+```
+
+## Screenshots
+<img width="852" alt="Captura de Tela 2022-12-09 às 01 03 43" src="https://user-images.githubusercontent.com/22984504/206621491-3a7a8337-2b98-45c5-bf25-bb927820355b.png">
+<img width="876" alt="Captura de Tela 2022-12-09 às 01 03 56" src="https://user-images.githubusercontent.com/22984504/206621517-62db1acd-bc98-4d78-9754-3a75a1ce1338.png">
+<img width="1194" alt="Captura de Tela 2022-12-09 às 01 04 09" src="https://user-images.githubusercontent.com/22984504/206621542-f70ed00f-7050-44bb-843c-3bdf9f3a02e7.png">
+
+

@@ -2,11 +2,12 @@ export const COMPONENT_ID = 'button';
 
 type ButtonProps = {
   name: string;
-  onClick: () => void;
+  onClick?: () => void;
+  className?: string;
 };
-const Button = ({ name, onClick }: ButtonProps) => {
+const Button = ({ name, onClick, className = '' }: ButtonProps) => {
   return (
-    <div>
+    <div className={`${COMPONENT_ID} ${className}`} id={`${COMPONENT_ID}`}>
       <button className={`${COMPONENT_ID}__action`} onClick={onClick}>
         {name}
       </button>

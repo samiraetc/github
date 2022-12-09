@@ -1,20 +1,13 @@
-const { pathsToModuleNameMapper } = require('ts-jest');
-const { compilerOptions } = require('./tsconfig.json');
-
 module.exports = {
-  verbose: true,
+  testEnvironment: 'jsdom',
   preset: 'ts-jest',
-  globals: {
-    'ts-jest': {
-      babelConfig: '<rootDir>/.babelrc',
-    },
+  testPathIgnorePatterns: ['/node_modules/', '/.next/', 'src/pages/_app.tsx', 'src/pages/index.tsx'],
+  collectCoverage: true,
+  collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/stories.tsx'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
+  modulePaths: ['<rootDir>/src/'],
+  transform: {
+    '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }],
   },
-  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
-  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
-    prefix: '<rootDir>/src/',
-  }),
-  resolver: `<rootDir>/resolver.js`,
-  testMatch: ['<rootDir>/**/__tests__/**/*.spec.{ts,tsx}'],
-  testEnvironment: 'jest-environment-jsdom',
-  coveragePathIgnorePatterns: ['node_modules'],
+  coveragePathIgnorePatterns: ['node_modules', 'src/pages/_app.tsx', 'src/pages/index.tsx'],
 };

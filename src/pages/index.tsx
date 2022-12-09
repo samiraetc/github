@@ -1,4 +1,4 @@
-import SearchProfile from './SearchProfile/searchProfile';
+import SearchProfile from './search/SearchProfile';
 
 const Home = () => {
   return <SearchProfile />;

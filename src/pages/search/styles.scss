@@ -1,0 +1,37 @@
+.search-profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  &__container {
+    padding: $github-spacing-20;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__submit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: $github-spacing-20;
+  }
+
+  &__invalidUser {
+    color: red;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    .dot {
+      width: 20px;
+    }
+  }
+}

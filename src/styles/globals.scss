@@ -4,8 +4,11 @@
 @import '../components/CardProfile/styles';
 @import '../components/TextField/styles';
 @import '../components//Button/styles';
+@import '../components/CardRepositories/styles';
+@import '../components/Pagination/styles';
 
-@import '../pages/searchProfile/styles';
+@import '../pages/search/styles';
+@import '../pages/repositories/styles';
 
 * {
   margin: 0;

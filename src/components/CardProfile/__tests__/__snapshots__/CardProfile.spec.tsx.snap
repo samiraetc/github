@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardProfile should render Button with button 1`] = `
+<DocumentFragment>
+  <div
+    class="card-profile__container "
+    id="card-profile"
+  >
+    <img
+      alt="profile image"
+      class="card-profile__image"
+      src="https://avatars.githubusercontent.com/u/9120451?v=4"
+    />
+    <p
+      class="card-profile__name"
+    >
+      Matt Biitencourt
+    </p>
+    <p
+      class="card-profile__biography"
+    >
+      Hello, this is my Github profile
+    </p>
+    <div
+      class="button card-profile__button"
+      id="button"
+    >
+      <button
+        class="button__action"
+      >
+        REPOSITORIES
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CardProfile should render Button with button and click 1`] = `
+<DocumentFragment>
+  <div
+    class="card-profile__container "
+    id="card-profile"
+  >
+    <img
+      alt="profile image"
+      class="card-profile__image"
+      src="https://avatars.githubusercontent.com/u/9120451?v=4"
+    />
+    <p
+      class="card-profile__name"
+    >
+      Matt Biitencourt
+    </p>
+    <p
+      class="card-profile__biography"
+    >
+      Hello, this is my Github profile
+    </p>
+    <div
+      class="button card-profile__button"
+      id="button"
+    >
+      <button
+        class="button__action"
+      >
+        REPOSITORIES
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

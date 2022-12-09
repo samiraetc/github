@@ -1,6 +1,5 @@
 .card-profile {
   &__container {
-    margin: 120px;
     padding: $github-spacing-20;
     background-color: $github-white;
     border-radius: $github-border-radius-20;
@@ -12,11 +11,13 @@
     -moz-box-shadow: 4px 9px 23px -8px rgba(0, 0, 0, 0.19);
     box-shadow: 4px 9px 23px -8px rgba(0, 0, 0, 0.19);
     width: 50vh;
-    height: 100%;
+    border: 1px solid rgba(45, 164, 78, 0.5);
+    gap: 15px;
   }
 
   &__image {
     border-radius: 50%;
+    width: 50%;
   }
 
   &__name {
@@ -28,5 +29,12 @@
   &__biography {
     font-size: $github-font-size-16;
     font-weight: 300;
+    text-align: center;
+  }
+
+  &__repositories {
+    font-size: $github-font-size-16;
+    font-weight: 300;
+    text-align: center;
   }
 }

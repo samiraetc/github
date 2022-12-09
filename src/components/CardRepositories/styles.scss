@@ -1,0 +1,44 @@
+.card-repositories {
+  background-color: $github-secondary-color;
+  padding: 20px;
+  border-radius: 20px;
+  width: 600px;
+  color: white;
+
+  &__infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    .card-repositories__type {
+      width: 50px;
+      text-align: center;
+      font-size: 12px;
+      padding: 5px;
+      border: 1px solid white;
+      border-radius: 50px;
+      letter-spacing: 1px;
+    }
+  }
+
+  &__name {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+
+  &__description {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  &__project {
+    font-size: 14px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

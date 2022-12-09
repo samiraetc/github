@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should render Pagination 1`] = `
+<DocumentFragment>
+  <ul
+    class="pagination pagination-bar"
+    id="pagination"
+  >
+    <li
+      class="pagination-item disabled"
+    >
+      <div
+        class="arrow left"
+      />
+    </li>
+    <li
+      class="pagination-item selected"
+    >
+      1
+    </li>
+    <li
+      class="pagination-item"
+    >
+      2
+    </li>
+    <li
+      class="pagination-item"
+    >
+      <div
+        class="arrow right"
+      />
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Pagination should render Pagination and click on second page 1`] = `
+<DocumentFragment>
+  <ul
+    class="pagination pagination-bar"
+    id="pagination"
+  >
+    <li
+      class="pagination-item disabled"
+    >
+      <div
+        class="arrow left"
+      />
+    </li>
+    <li
+      class="pagination-item selected"
+    >
+      1
+    </li>
+    <li
+      class="pagination-item"
+    >
+      2
+    </li>
+    <li
+      class="pagination-item"
+    >
+      <div
+        class="arrow right"
+      />
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Pagination should render Pagination and click to back to first page 1`] = `
+<DocumentFragment>
+  <ul
+    class="pagination pagination-bar"
+    id="pagination"
+  >
+    <li
+      class="pagination-item"
+    >
+      <div
+        class="arrow left"
+      />
+    </li>
+    <li
+      class="pagination-item"
+    >
+      1
+    </li>
+    <li
+      class="pagination-item selected"
+    >
+      2
+    </li>
+    <li
+      class="pagination-item disabled"
+    >
+      <div
+        class="arrow right"
+      />
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Pagination should render Pagination when has dots ... 1`] = `
+<DocumentFragment>
+  <ul
+    class="pagination pagination-bar"
+    id="pagination"
+  >
+    <li
+      class="pagination-item disabled"
+    >
+      <div
+        class="arrow left"
+      />
+    </li>
+    <li
+      class="pagination-item selected"
+    >
+      1
+    </li>
+    <li
+      class="pagination-item"
+    >
+      2
+    </li>
+    <li
+      class="pagination-item"
+    >
+      3
+    </li>
+    <li
+      class="pagination-item"
+    >
+      4
+    </li>
+    <li
+      class="pagination-item"
+    >
+      5
+    </li>
+    <li
+      class="pagination-item dots"
+    >
+      …
+    </li>
+    <li
+      class="pagination-item"
+    >
+      10
+    </li>
+    <li
+      class="pagination-item"
+    >
+      <div
+        class="arrow right"
+      />
+    </li>
+  </ul>
+</DocumentFragment>
+`;

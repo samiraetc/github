@@ -18,6 +18,12 @@ Follow `package.json` commands to assist in development:
 yarn install
 ```
 
+or
+
+```
+npm install
+```
+
 - To build the project and assets
 
 ```
